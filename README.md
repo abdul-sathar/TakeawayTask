@@ -33,7 +33,7 @@ In the file ***`config.properties`*** , below properties can be configured
 --------------------------------------------------------------------------------------------
 Running the test suite:
 --------------------------------------------------------------------------------------------
-***Pre-condition:***  make sure you have enter valid write access token in ***`config.properties` ***
+***Pre-condition:***  make sure you have enter valid write access token in `config.properties`
 
 1. Clone the repository.
 
@@ -53,6 +53,5 @@ Additional Info:
 * Automation Report can be found in `/TestReports/AutomationReport_with_TimeStamp.html` file
 
 --------------------------------------------------------------------------------------------
-### Contact
+### Contact :  abdul.sathar2612@gmail.com
 --------------------------------------------------------------------------------------------
-* abdul.sathar2612@gmail.com
