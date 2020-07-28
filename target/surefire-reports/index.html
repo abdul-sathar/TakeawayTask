@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Takeaway_Automation_Tests">
+              <span class="suite-name border-passed">Takeaway Automation Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Takeaway_Automation_Tests">
+                    <span>C:\Abdul\TakeAwayWS\takeaway-automation-framework\tests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Takeaway_Automation_Tests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Takeaway_Automation_Tests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Takeaway_Automation_Tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Takeaway_Automation_Tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Takeaway_Automation_Tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Takeaway_Automation_Tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Takeaway_Automation_Tests" class="hide-methods passed suite-Takeaway_Automation_Tests"> (hide)</a> <!-- hide-methods passed suite-Takeaway_Automation_Tests -->
+                      <a href="#" panel-name="suite-Takeaway_Automation_Tests" class="show-methods passed suite-Takeaway_Automation_Tests"> (show)</a> <!-- show-methods passed suite-Takeaway_Automation_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Takeaway_Automation_Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Takeaway_Automation_Tests" title="com.takeaway.testcases.ListNegativeTestcases" hash-for-method="addItemsToInvalidList">addItemsToInvalidList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Takeaway_Automation_Tests" title="com.takeaway.testcases.ListPositiveTestcases" hash-for-method="addItemsToList">addItemsToList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Takeaway_Automation_Tests" title="com.takeaway.testcases.ListPositiveTestcases" hash-for-method="clearItemsFromList">clearItemsFromList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Takeaway_Automation_Tests" title="com.takeaway.testcases.ListPositiveTestcases" hash-for-method="createList">createList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Takeaway_Automation_Tests" title="com.takeaway.testcases.ListNegativeTestcases" hash-for-method="createListWithInvalidAccessToken">createListWithInvalidAccessToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Takeaway_Automation_Tests" title="com.takeaway.testcases.ListPositiveTestcases" hash-for-method="deleteItemsFromList">deleteItemsFromList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Takeaway_Automation_Tests" title="com.takeaway.testcases.ListPositiveTestcases" hash-for-method="updateItemsFromList">updateItemsFromList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Takeaway_Automation_Tests" title="com.takeaway.testcases.ListPositiveTestcases" hash-for-method="updateList(new description, new Name)">updateList(new description, new Name)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Takeaway_Automation_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Takeaway_Automation_Tests" class="panel Takeaway_Automation_Tests">
+          <div class="suite-Takeaway_Automation_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.takeaway.testcases.ListPositiveTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemsToList">
+                  </a> <!-- addItemsToList -->
+                  <span class="method-name">addItemsToList</span>
+                  <em>
+(Test Add items to created list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clearItemsFromList">
+                  </a> <!-- clearItemsFromList -->
+                  <span class="method-name">clearItemsFromList</span>
+                  <em>
+(Test Clear the list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createList">
+                  </a> <!-- createList -->
+                  <span class="method-name">createList</span>
+                  <em>
+(Test Create list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteItemsFromList">
+                  </a> <!-- deleteItemsFromList -->
+                  <span class="method-name">deleteItemsFromList</span>
+                  <em>
+(Test Delete items to created list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateItemsFromList">
+                  </a> <!-- updateItemsFromList -->
+                  <span class="method-name">updateItemsFromList</span>
+                  <em>
+(Test Update items to created list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateList(new description, new Name)">
+                  </a> <!-- updateList(new description, new Name) -->
+                  <span class="method-name">updateList</span>
+                  <span class="parameters">(new description, new Name)</span>
+                  <em>
+(Test Update list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Takeaway_Automation_Tests-class-passed -->
+          <div class="suite-Takeaway_Automation_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.takeaway.testcases.ListNegativeTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemsToInvalidList">
+                  </a> <!-- addItemsToInvalidList -->
+                  <span class="method-name">addItemsToInvalidList</span>
+                  <em>
+(Test Add items to Invalid list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createListWithInvalidAccessToken">
+                  </a> <!-- createListWithInvalidAccessToken -->
+                  <span class="method-name">createListWithInvalidAccessToken</span>
+                  <em>
+(Test Create list with Invalid Token)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Takeaway_Automation_Tests-class-passed -->
+        </div> <!-- panel Takeaway_Automation_Tests -->
+        <div panel-name="test-xml-Takeaway_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Abdul\TakeAwayWS\takeaway-automation-framework\tests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Takeaway Automation Tests&quot; parallel=&quot;classes&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.takeaway.utilities.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;4&quot; verbose=&quot;0&quot; name=&quot;List CRUD Operations&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.takeaway.testcases.ListPositiveTestcases&quot;/&gt;
+      &lt;class name=&quot;com.takeaway.testcases.ListNegativeTestcases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- List CRUD Operations --&gt;
+&lt;/suite&gt; &lt;!-- Takeaway Automation Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Takeaway_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Takeaway Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">List CRUD Operations (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Takeaway_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Takeaway Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Takeaway_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Takeaway Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Takeaway_Automation_Tests');
+function tableData_Takeaway_Automation_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addItemsToList')
+data.setCell(0, 2, 'com.takeaway.testcases.ListPositiveTestcases')
+data.setCell(0, 3, 2082);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clearItemsFromList')
+data.setCell(1, 2, 'com.takeaway.testcases.ListPositiveTestcases')
+data.setCell(1, 3, 1424);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addItemsToInvalidList')
+data.setCell(2, 2, 'com.takeaway.testcases.ListNegativeTestcases')
+data.setCell(2, 3, 1370);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'updateItemsFromList')
+data.setCell(3, 2, 'com.takeaway.testcases.ListPositiveTestcases')
+data.setCell(3, 3, 1279);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deleteItemsFromList')
+data.setCell(4, 2, 'com.takeaway.testcases.ListPositiveTestcases')
+data.setCell(4, 3, 1027);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'updateList')
+data.setCell(5, 2, 'com.takeaway.testcases.ListPositiveTestcases')
+data.setCell(5, 3, 590);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createListWithInvalidAccessToken')
+data.setCell(6, 2, 'com.takeaway.testcases.ListNegativeTestcases')
+data.setCell(6, 3, 276);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createList')
+data.setCell(7, 2, 'com.takeaway.testcases.ListPositiveTestcases')
+data.setCell(7, 3, 257);
+window.suiteTableData['Takeaway_Automation_Tests']= { tableData: data, tableDiv: 'times-div-Takeaway_Automation_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Takeaway_Automation_Tests">
+              </div> <!-- times-div-Takeaway_Automation_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Takeaway_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Takeaway Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Takeaway_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.takeaway.testcases.ListNegativeTestcases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">baseBeforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Takeaway_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.takeaway.testcases.ListPositiveTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">baseBeforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeListClass</span>
+                <span class="method-start">287 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.takeaway.testcases.ListNegativeTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeListClass</span>
+                <span class="method-start">287 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.takeaway.testcases.ListPositiveTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">logExecution([TestResult name=addItemsToList status=SUCCESS method=ListPositiveTestcases.addItemsToList()[pri:0, ...)</span>
+                <span class="method-start">294 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.takeaway.testcases.ListNegativeTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">logExecution([TestResult name=addItemsToInvalidList status=SUCCESS method=ListNegativeTestcases.addItemsToInvalid...)</span>
+                <span class="method-start">294 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addItemsToInvalidList</span>
+                <span class="method-start">295 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.takeaway.testcases.ListPositiveTestcases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addItemsToList</span>
+                <span class="method-start">295 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.takeaway.testcases.ListNegativeTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndOfExecution([TestResult name=addItemsToInvalidList status=SUCCESS method=ListNegativeTestcases.addItemsToInvalid...)</span>
+                <span class="method-start">1668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logExecution([TestResult name=createListWithInvalidAccessToken status=SUCCESS method=ListNegativeTestcases.create...)</span>
+                <span class="method-start">1669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createListWithInvalidAccessToken</span>
+                <span class="method-start">1670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndOfExecution([TestResult name=createListWithInvalidAccessToken status=SUCCESS method=ListNegativeTestcases.create...)</span>
+                <span class="method-start">1947 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.takeaway.testcases.ListPositiveTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">deleteList</span>
+                <span class="method-start">2377 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndOfExecution([TestResult name=addItemsToList status=SUCCESS method=ListPositiveTestcases.addItemsToList()[pri:0, ...)</span>
+                <span class="method-start">2866 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logExecution([TestResult name=clearItemsFromList status=SUCCESS method=ListPositiveTestcases.clearItemsFromList()...)</span>
+                <span class="method-start">2867 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clearItemsFromList</span>
+                <span class="method-start">2867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">deleteList</span>
+                <span class="method-start">4292 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndOfExecution([TestResult name=clearItemsFromList status=SUCCESS method=ListPositiveTestcases.clearItemsFromList()...)</span>
+                <span class="method-start">4635 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logExecution([TestResult name=createList status=SUCCESS method=ListPositiveTestcases.createList()[pri:0, instance...)</span>
+                <span class="method-start">4636 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createList</span>
+                <span class="method-start">4637 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">deleteList</span>
+                <span class="method-start">4895 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndOfExecution([TestResult name=createList status=SUCCESS method=ListPositiveTestcases.createList()[pri:0, instance...)</span>
+                <span class="method-start">5275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logExecution([TestResult name=deleteItemsFromList status=SUCCESS method=ListPositiveTestcases.deleteItemsFromList...)</span>
+                <span class="method-start">5277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteItemsFromList</span>
+                <span class="method-start">5278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">deleteList</span>
+                <span class="method-start">6305 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndOfExecution([TestResult name=deleteItemsFromList status=SUCCESS method=ListPositiveTestcases.deleteItemsFromList...)</span>
+                <span class="method-start">6707 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logExecution([TestResult name=updateItemsFromList status=SUCCESS method=ListPositiveTestcases.updateItemsFromList...)</span>
+                <span class="method-start">6708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateItemsFromList</span>
+                <span class="method-start">6708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">deleteList</span>
+                <span class="method-start">7988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndOfExecution([TestResult name=updateItemsFromList status=SUCCESS method=ListPositiveTestcases.updateItemsFromList...)</span>
+                <span class="method-start">8347 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logExecution([TestResult name=updateList status=SUCCESS method=ListPositiveTestcases.updateList(java.lang.String,...)</span>
+                <span class="method-start">8355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateList(new description, new Name)</span>
+                <span class="method-start">8356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">deleteList</span>
+                <span class="method-start">8947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndOfExecution([TestResult name=updateList status=SUCCESS method=ListPositiveTestcases.updateList(java.lang.String,...)</span>
+                <span class="method-start">9315 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

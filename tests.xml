@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Takeaway Automation Tests" parallel="classes" thread-count="4">
+<listeners>
+	<listener class-name="com.takeaway.utilities.TestListeners" />
+</listeners>
+    <test name="List CRUD Operations">
+        <classes>
+            <class name="com.takeaway.testcases.ListPositiveTestcases"/>
+            <class name="com.takeaway.testcases.ListNegativeTestcases"/>
+        </classes>
+    </test>
+</suite>

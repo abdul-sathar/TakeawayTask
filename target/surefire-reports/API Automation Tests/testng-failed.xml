@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [API Automation Tests]" parallel="classes">
+  <listeners>
+    <listener class-name="com.takeaway.utilities.TestListeners"/>
+  </listeners>
+  <test thread-count="2" verbose="0" name="List operations(failed)" parallel="classes">
+    <classes>
+      <class name="com.takeaway.testcases.ListTests">
+        <methods>
+          <include name="testUpdateItemsFromList"/>
+          <include name="logStartMethod"/>
+          <include name="testClearItemsFromList"/>
+          <include name="testUpdateList"/>
+          <include name="baseBeforeTest"/>
+          <include name="logEndMethod"/>
+          <include name="testDeleteItemsFromList"/>
+          <include name="testDeleteList"/>
+          <include name="createList"/>
+          <include name="beforeListClass"/>
+        </methods>
+      </class> <!-- com.takeaway.testcases.ListTests -->
+    </classes>
+  </test> <!-- List operations(failed) -->
+</suite> <!-- Failed suite [API Automation Tests] -->

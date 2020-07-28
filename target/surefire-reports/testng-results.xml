@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Takeaway Automation Tests" duration-ms="9041" started-at="2020-07-28T21:55:50Z" finished-at="2020-07-28T21:55:59Z">
+    <groups>
+    </groups>
+    <test name="List CRUD Operations" duration-ms="9041" started-at="2020-07-28T21:55:50Z" finished-at="2020-07-28T21:55:59Z">
+      <class name="com.takeaway.testcases.ListPositiveTestcases">
+        <test-method status="PASS" signature="baseBeforeTest()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="baseBeforeTest" is-config="true" duration-ms="277" started-at="2020-07-28T21:55:49Z" finished-at="2020-07-28T21:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeTest -->
+        <test-method status="PASS" signature="beforeListClass()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="beforeListClass" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:50Z" finished-at="2020-07-28T21:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeListClass -->
+        <test-method status="PASS" signature="logExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logExecution" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:50Z" finished-at="2020-07-28T21:55:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addItemsToList status=SUCCESS method=ListPositiveTestcases.addItemsToList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logExecution -->
+        <test-method status="PASS" signature="addItemsToList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="addItemsToList" duration-ms="2082" started-at="2020-07-28T21:55:50Z" description="Test Add items to created list" finished-at="2020-07-28T21:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToList -->
+        <test-method status="PASS" signature="deleteList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="deleteList" is-config="true" duration-ms="489" started-at="2020-07-28T21:55:52Z" description="Delete list" finished-at="2020-07-28T21:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteList -->
+        <test-method status="PASS" signature="logEndOfExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logEndOfExecution" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:52Z" finished-at="2020-07-28T21:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addItemsToList status=SUCCESS method=ListPositiveTestcases.addItemsToList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndOfExecution -->
+        <test-method status="PASS" signature="clearItemsFromList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="clearItemsFromList" duration-ms="1424" started-at="2020-07-28T21:55:52Z" description="Test Clear the list" finished-at="2020-07-28T21:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearItemsFromList -->
+        <test-method status="PASS" signature="logExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logExecution" is-config="true" duration-ms="0" started-at="2020-07-28T21:55:52Z" finished-at="2020-07-28T21:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clearItemsFromList status=SUCCESS method=ListPositiveTestcases.clearItemsFromList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logExecution -->
+        <test-method status="PASS" signature="deleteList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="deleteList" is-config="true" duration-ms="343" started-at="2020-07-28T21:55:54Z" description="Delete list" finished-at="2020-07-28T21:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteList -->
+        <test-method status="PASS" signature="logEndOfExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logEndOfExecution" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:54Z" finished-at="2020-07-28T21:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clearItemsFromList status=SUCCESS method=ListPositiveTestcases.clearItemsFromList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndOfExecution -->
+        <test-method status="PASS" signature="logExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logExecution" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:54Z" finished-at="2020-07-28T21:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createList status=SUCCESS method=ListPositiveTestcases.createList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logExecution -->
+        <test-method status="PASS" signature="createList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="createList" duration-ms="257" started-at="2020-07-28T21:55:54Z" description="Test Create list" finished-at="2020-07-28T21:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createList -->
+        <test-method status="PASS" signature="deleteList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="deleteList" is-config="true" duration-ms="380" started-at="2020-07-28T21:55:54Z" description="Delete list" finished-at="2020-07-28T21:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteList -->
+        <test-method status="PASS" signature="logEndOfExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logEndOfExecution" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:55Z" finished-at="2020-07-28T21:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createList status=SUCCESS method=ListPositiveTestcases.createList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndOfExecution -->
+        <test-method status="PASS" signature="logExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logExecution" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:55Z" finished-at="2020-07-28T21:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteItemsFromList status=SUCCESS method=ListPositiveTestcases.deleteItemsFromList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logExecution -->
+        <test-method status="PASS" signature="deleteItemsFromList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="deleteItemsFromList" duration-ms="1027" started-at="2020-07-28T21:55:55Z" description="Test Delete items to created list" finished-at="2020-07-28T21:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItemsFromList -->
+        <test-method status="PASS" signature="deleteList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="deleteList" is-config="true" duration-ms="402" started-at="2020-07-28T21:55:56Z" description="Delete list" finished-at="2020-07-28T21:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteList -->
+        <test-method status="PASS" signature="logEndOfExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logEndOfExecution" is-config="true" duration-ms="0" started-at="2020-07-28T21:55:56Z" finished-at="2020-07-28T21:55:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteItemsFromList status=SUCCESS method=ListPositiveTestcases.deleteItemsFromList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndOfExecution -->
+        <test-method status="PASS" signature="updateItemsFromList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="updateItemsFromList" duration-ms="1279" started-at="2020-07-28T21:55:56Z" description="Test Update items to created list" finished-at="2020-07-28T21:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateItemsFromList -->
+        <test-method status="PASS" signature="logExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logExecution" is-config="true" duration-ms="0" started-at="2020-07-28T21:55:56Z" finished-at="2020-07-28T21:55:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateItemsFromList status=SUCCESS method=ListPositiveTestcases.updateItemsFromList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logExecution -->
+        <test-method status="PASS" signature="deleteList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="deleteList" is-config="true" duration-ms="359" started-at="2020-07-28T21:55:57Z" description="Delete list" finished-at="2020-07-28T21:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteList -->
+        <test-method status="PASS" signature="logEndOfExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logEndOfExecution" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:58Z" finished-at="2020-07-28T21:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateItemsFromList status=SUCCESS method=ListPositiveTestcases.updateItemsFromList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndOfExecution -->
+        <test-method status="PASS" signature="logExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logExecution" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:58Z" finished-at="2020-07-28T21:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateList status=SUCCESS method=ListPositiveTestcases.updateList(java.lang.String, java.lang.String)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logExecution -->
+        <test-method status="PASS" signature="updateList(java.lang.String, java.lang.String)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="updateList" duration-ms="590" started-at="2020-07-28T21:55:58Z" description="Test Update list" data-provider="updateList" finished-at="2020-07-28T21:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new description]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[new Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateList -->
+        <test-method status="PASS" signature="deleteList()[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="deleteList" is-config="true" duration-ms="368" started-at="2020-07-28T21:55:58Z" description="Delete list" finished-at="2020-07-28T21:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteList -->
+        <test-method status="PASS" signature="logEndOfExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3]" name="logEndOfExecution" is-config="true" duration-ms="2" started-at="2020-07-28T21:55:59Z" finished-at="2020-07-28T21:55:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateList status=SUCCESS method=ListPositiveTestcases.updateList(java.lang.String, java.lang.String)[pri:0, instance:com.takeaway.testcases.ListPositiveTestcases@740773a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndOfExecution -->
+      </class> <!-- com.takeaway.testcases.ListPositiveTestcases -->
+      <class name="com.takeaway.testcases.ListNegativeTestcases">
+        <test-method status="PASS" signature="beforeListClass()[pri:0, instance:com.takeaway.testcases.ListNegativeTestcases@37f1104d]" name="beforeListClass" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:50Z" finished-at="2020-07-28T21:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeListClass -->
+        <test-method status="PASS" signature="logExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListNegativeTestcases@37f1104d]" name="logExecution" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:50Z" finished-at="2020-07-28T21:55:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addItemsToInvalidList status=SUCCESS method=ListNegativeTestcases.addItemsToInvalidList()[pri:0, instance:com.takeaway.testcases.ListNegativeTestcases@37f1104d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logExecution -->
+        <test-method status="PASS" signature="addItemsToInvalidList()[pri:0, instance:com.takeaway.testcases.ListNegativeTestcases@37f1104d]" name="addItemsToInvalidList" duration-ms="1370" started-at="2020-07-28T21:55:50Z" description="Test Add items to Invalid list" finished-at="2020-07-28T21:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToInvalidList -->
+        <test-method status="PASS" signature="logEndOfExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListNegativeTestcases@37f1104d]" name="logEndOfExecution" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:51Z" finished-at="2020-07-28T21:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addItemsToInvalidList status=SUCCESS method=ListNegativeTestcases.addItemsToInvalidList()[pri:0, instance:com.takeaway.testcases.ListNegativeTestcases@37f1104d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndOfExecution -->
+        <test-method status="PASS" signature="logExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListNegativeTestcases@37f1104d]" name="logExecution" is-config="true" duration-ms="1" started-at="2020-07-28T21:55:51Z" finished-at="2020-07-28T21:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createListWithInvalidAccessToken status=SUCCESS method=ListNegativeTestcases.createListWithInvalidAccessToken()[pri:0, instance:com.takeaway.testcases.ListNegativeTestcases@37f1104d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logExecution -->
+        <test-method status="PASS" signature="createListWithInvalidAccessToken()[pri:0, instance:com.takeaway.testcases.ListNegativeTestcases@37f1104d]" name="createListWithInvalidAccessToken" duration-ms="276" started-at="2020-07-28T21:55:51Z" description="Test Create list with Invalid Token" finished-at="2020-07-28T21:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createListWithInvalidAccessToken -->
+        <test-method status="PASS" signature="logEndOfExecution(org.testng.ITestResult)[pri:0, instance:com.takeaway.testcases.ListNegativeTestcases@37f1104d]" name="logEndOfExecution" is-config="true" duration-ms="0" started-at="2020-07-28T21:55:51Z" finished-at="2020-07-28T21:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createListWithInvalidAccessToken status=SUCCESS method=ListNegativeTestcases.createListWithInvalidAccessToken()[pri:0, instance:com.takeaway.testcases.ListNegativeTestcases@37f1104d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndOfExecution -->
+      </class> <!-- com.takeaway.testcases.ListNegativeTestcases -->
+    </test> <!-- List CRUD Operations -->
+  </suite> <!-- Takeaway Automation Tests -->
+</testng-results>

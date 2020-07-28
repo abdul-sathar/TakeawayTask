@@ -1,0 +1,60 @@
+2020-07-28 23:55:50.197 [main] INFO  com.takeaway.utilities.TestListeners - ========== Test Suite Started ==========
+2020-07-28 23:55:50.212 [TestNG-test=List CRUD Operations-2] INFO  com.takeaway.testcases.ListNegativeTestcases - ========= Execution of TestCase: [Test Add items to Invalid list] =========
+2020-07-28 23:55:50.212 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Execution of TestCase: [Test Add items to created list] =========
+2020-07-28 23:55:50.273 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list with body - {"name":"zfROH","iso_639_1":"en"}
+2020-07-28 23:55:50.274 [TestNG-test=List CRUD Operations-2] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list/786/items with body - {"items":[{"media_type":"movie","media_id":123,"comment":"Movie item"}]}
+2020-07-28 23:55:51.583 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list/7052486/items with body - {"items":[{"media_type":"movie","media_id":123,"comment":"Movie item"},{"media_type":"tv","media_id":12345,"comment":"Tv item"}]}
+2020-07-28 23:55:51.586 [TestNG-test=List CRUD Operations-2] INFO  com.takeaway.testcases.ListNegativeTestcases - ========= Ended Execution of TestCase: [Test Add items to Invalid list] =========
+2020-07-28 23:55:51.586 [TestNG-test=List CRUD Operations-2] INFO  com.takeaway.testcases.ListNegativeTestcases - ========= Execution of TestCase: [Test Create list with Invalid Token] =========
+2020-07-28 23:55:51.587 [TestNG-test=List CRUD Operations-2] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list with body - {"name":"BZSln","iso_639_1":"en"}
+2020-07-28 23:55:51.864 [TestNG-test=List CRUD Operations-2] INFO  com.takeaway.testcases.ListNegativeTestcases - ========= Ended Execution of TestCase: [Test Create list with Invalid Token] =========
+2020-07-28 23:55:51.890 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052486/item_status?media_id=123&media_type=movie
+2020-07-28 23:55:52.109 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052486/item_status?media_id=12345&media_type=tv
+2020-07-28 23:55:52.295 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - DELETE request - /list/7052486
+2020-07-28 23:55:52.584 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052486?page=1
+2020-07-28 23:55:52.783 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Ended Execution of TestCase: [Test Add items to created list] =========
+2020-07-28 23:55:52.784 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Execution of TestCase: [Test Clear the list] =========
+2020-07-28 23:55:52.785 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list with body - {"name":"ZJtBh","iso_639_1":"en"}
+2020-07-28 23:55:52.948 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list/7052487/items with body - {"items":[{"media_type":"movie","media_id":123,"comment":"Movie item"},{"media_type":"tv","media_id":12345,"comment":"Tv item"}]}
+2020-07-28 23:55:53.128 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052487/item_status?media_id=123&media_type=movie
+2020-07-28 23:55:53.298 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052487/item_status?media_id=12345&media_type=tv
+2020-07-28 23:55:53.470 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052487?page=1
+2020-07-28 23:55:53.676 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052487/clear
+2020-07-28 23:55:53.859 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052487/item_status?media_id=123&media_type=movie
+2020-07-28 23:55:54.030 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052487/item_status?media_id=12345&media_type=tv
+2020-07-28 23:55:54.209 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - DELETE request - /list/7052487
+2020-07-28 23:55:54.394 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052487?page=1
+2020-07-28 23:55:54.552 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Ended Execution of TestCase: [Test Clear the list] =========
+2020-07-28 23:55:54.553 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Execution of TestCase: [Test Create list] =========
+2020-07-28 23:55:54.555 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list with body - {"name":"fDzpP","iso_639_1":"en"}
+2020-07-28 23:55:54.812 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - DELETE request - /list/7052488
+2020-07-28 23:55:55.024 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052488?page=1
+2020-07-28 23:55:55.193 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Ended Execution of TestCase: [Test Create list] =========
+2020-07-28 23:55:55.194 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Execution of TestCase: [Test Delete items to created list] =========
+2020-07-28 23:55:55.196 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list with body - {"name":"sVPbQ","iso_639_1":"en"}
+2020-07-28 23:55:55.359 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list/7052489/items with body - {"items":[{"media_type":"movie","media_id":123,"comment":"Movie item"},{"media_type":"tv","media_id":12345,"comment":"Tv item"}]}
+2020-07-28 23:55:55.548 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052489/item_status?media_id=123&media_type=movie
+2020-07-28 23:55:55.716 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052489/item_status?media_id=12345&media_type=tv
+2020-07-28 23:55:55.891 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - DELETE request - /list/7052489/items with body - {"items":[{"media_type":"movie","media_id":123,"comment":"Movie item"}]}
+2020-07-28 23:55:56.058 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052489/item_status?media_id=123&media_type=movie
+2020-07-28 23:55:56.222 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - DELETE request - /list/7052489
+2020-07-28 23:55:56.462 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052489?page=1
+2020-07-28 23:55:56.624 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Ended Execution of TestCase: [Test Delete items to created list] =========
+2020-07-28 23:55:56.625 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Execution of TestCase: [Test Update items to created list] =========
+2020-07-28 23:55:56.625 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list with body - {"name":"cAKJV","iso_639_1":"en"}
+2020-07-28 23:55:56.885 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list/7052490/items with body - {"items":[{"media_type":"movie","media_id":123,"comment":"Movie item"},{"media_type":"tv","media_id":12345,"comment":"Tv item"}]}
+2020-07-28 23:55:57.070 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052490/item_status?media_id=123&media_type=movie
+2020-07-28 23:55:57.239 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052490/item_status?media_id=12345&media_type=tv
+2020-07-28 23:55:57.411 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - UPDATE request - /list/7052490/items with body - {"items":[{"media_type":"movie","media_id":123,"comment":"great tv show"}]}
+2020-07-28 23:55:57.741 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052490/item_status?media_id=123&media_type=movie
+2020-07-28 23:55:57.905 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - DELETE request - /list/7052490
+2020-07-28 23:55:58.078 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052490?page=1
+2020-07-28 23:55:58.265 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Ended Execution of TestCase: [Test Update items to created list] =========
+2020-07-28 23:55:58.273 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Execution of TestCase: [Test Update list] =========
+2020-07-28 23:55:58.274 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - POST request - /list with body - {"name":"NObWO","iso_639_1":"en"}
+2020-07-28 23:55:58.443 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - UPDATE request - /list/7052491?page=1 with body - {"description":"new description","name":"new Name"}
+2020-07-28 23:55:58.678 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052491?page=1
+2020-07-28 23:55:58.864 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - DELETE request - /list/7052491
+2020-07-28 23:55:59.072 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.utilities.RestAssuredUtility - GET request - /list/7052491?page=1
+2020-07-28 23:55:59.233 [TestNG-test=List CRUD Operations-1] INFO  com.takeaway.testcases.ListPositiveTestcases - ========= Ended Execution of TestCase: [Test Update list] =========
+2020-07-28 23:55:59.257 [main] INFO  com.takeaway.utilities.TestListeners - ========== Test Suite Ended ==========

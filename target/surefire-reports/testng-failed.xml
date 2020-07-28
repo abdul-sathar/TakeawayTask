@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Takeaway Automation Tests]" parallel="classes">
+  <listeners>
+    <listener class-name="com.takeaway.utilities.TestListeners"/>
+  </listeners>
+  <test thread-count="4" verbose="0" name="List CRUD Operations(failed)" parallel="classes">
+    <classes>
+      <class name="com.takeaway.testcases.ListNegativeTestcases">
+        <methods>
+          <include name="logExecution"/>
+          <include name="addItemsToInvalidList"/>
+          <include name="logEndOfExecution"/>
+          <include name="baseBeforeTest"/>
+          <include name="beforeListClass"/>
+        </methods>
+      </class> <!-- com.takeaway.testcases.ListNegativeTestcases -->
+    </classes>
+  </test> <!-- List CRUD Operations(failed) -->
+</suite> <!-- Failed suite [Takeaway Automation Tests] -->
